@@ -1,0 +1,33 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.header-item{
+    display: flex;
+}
+
+.bin{
+    padding: 20px;
+    margin: 5px 20px 5px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.btn-edit{
+    padding: 20px;
+    margin: 5px 20px 5px;
+    background-color: green;
+    cursor: pointer;
+}
+.input-item{
+    margin-right: 20px;
+}
